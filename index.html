@@ -127,17 +127,27 @@
       </div>
     </div>
     <div class="block-form">
-      <form action="#" class="form">
-        <label class="form__label">
-          <input type="text" name="Имя" class="input-reset form__input" placeholder="Имя">
-        </label>
-        <label class="form__label">
-          <input type="e-mail" name="email" class="input-reset form__input" placeholder="email">
-        </label>
-        <label class="form__label">
-          <input type="e-mail" name="msg" class="input-reset form__input" placeholder="Имя">
-        </label>
-        <button class="btn-reset form__btn">Отправить</button>
+      <!-- form message -->
+      <form action="telegram.php" method="POST" class="form">
+        <legend>Отправить сообщение</legend>
+
+        <div class="form-group">
+          <input type="text" class="form-control" id="" name="name" placeholder="Введите имя">
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control" id="" name="phone" placeholder="Введите телефон">
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control" id="" name="email" placeholder="Введите email">
+        </div>
+
+        <div class="form-group">
+          <textarea name="msg" placeholder="введите сообщение"></textarea>
+        </div>
+
+        <button type="submit" class="btn form__btn">Отправить сообщение</button>
       </form>
     </div>
   </section>
