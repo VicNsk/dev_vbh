@@ -163,5 +163,21 @@ p {
 .block-form {
   min-width: 40%;
   height: 100%;
+  // padding: var(--offset);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--main-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &__btn {
+    background-color: var(--activ-color);
+  }
 }
