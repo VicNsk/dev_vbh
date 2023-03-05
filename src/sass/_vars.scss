@@ -1,0 +1,18 @@
+:root {
+  // * main dimensions
+  --min-width: 320px; // Минимальная ширина страницы
+  --offset: clamp(1rem, 1.5vw, 2rem);
+
+  // * fonts
+  --font-family: "Avenir", sans-serif;
+  --font-title: "Bebas", sans-serif;
+  --font-size: clamp(16px, 1.5vw, 20px);
+
+  // * colors
+  --main-color: #0e1319;
+  --bg-color: #fff;
+  --ligth-color: #acacac;
+  --dark-color: #2c3541;
+  --activ-color: #ff8c00;
+  --inActiv-color: #cdcdcd;
+}

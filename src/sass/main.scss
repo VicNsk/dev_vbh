@@ -1,0 +1,11 @@
+// * Общие настройки
+@import "fonts"; // подключение шрифтов
+@import "vars"; // общие переменные
+@import "setings"; // общие стили
+// * подключение сторнних библиотек
+// //@import "vendor/normalize";
+// * Подключение стилей блоков
+@import "blocks/header";
+// @import "blocks/media";
+// * Подключение стилей компонентов
+// @import "blocks/components/burger";
